@@ -47,3 +47,6 @@ frontend/build/
 *~
 .DS_Store
 Thumbs.db
+ 
+# PDF Documents
+*.pdf
