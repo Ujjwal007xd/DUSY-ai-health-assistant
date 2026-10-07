@@ -1,0 +1,85 @@
+{
+  "common_conditions": [
+    {
+      "name": "Common Cold",
+      "symptoms": ["runny nose", "sneezing", "sore throat", "mild cough", "low-grade fever"],
+      "recommendations": ["Rest well", "Stay hydrated", "Use saline nasal spray", "Take over-the-counter cold medicine if needed"],
+      "when_to_see_doctor": "If symptoms last more than 10 days, fever above 103°F, or difficulty breathing"
+    },
+    {
+      "name": "Influenza (Flu)",
+      "symptoms": ["high fever", "body aches", "fatigue", "headache", "dry cough", "chills"],
+      "recommendations": ["Rest and stay home", "Drink plenty of fluids", "Take antiviral medications if prescribed", "Use fever reducers like acetaminophen"],
+      "when_to_see_doctor": "If fever persists beyond 3 days, chest pain, confusion, or severe vomiting"
+    },
+    {
+      "name": "Migraine",
+      "symptoms": ["severe headache", "nausea", "sensitivity to light", "sensitivity to sound", "visual aura"],
+      "recommendations": ["Rest in a dark, quiet room", "Apply cold compress to forehead", "Stay hydrated", "Take prescribed migraine medication"],
+      "when_to_see_doctor": "If headaches are frequent, sudden severe headache, headache with fever and stiff neck"
+    },
+    {
+      "name": "Food Poisoning",
+      "symptoms": ["nausea", "vomiting", "diarrhea", "stomach cramps", "fever"],
+      "recommendations": ["Stay hydrated with ORS or clear fluids", "Eat bland foods (BRAT diet)", "Rest", "Avoid dairy and spicy foods"],
+      "when_to_see_doctor": "If symptoms last more than 3 days, blood in stool, high fever, or signs of dehydration"
+    },
+    {
+      "name": "Allergic Reaction",
+      "symptoms": ["skin rash", "itching", "swelling", "runny nose", "watery eyes", "sneezing"],
+      "recommendations": ["Take antihistamines", "Avoid known allergens", "Use cold compresses for skin reactions", "Keep an epinephrine auto-injector if prescribed"],
+      "when_to_see_doctor": "Immediately if difficulty breathing, throat swelling, dizziness, or rapid heartbeat (anaphylaxis)"
+    },
+    {
+      "name": "Hypertension (High Blood Pressure)",
+      "symptoms": ["headache", "dizziness", "blurred vision", "chest pain", "shortness of breath"],
+      "recommendations": ["Reduce salt intake", "Exercise regularly", "Maintain healthy weight", "Take prescribed medications", "Manage stress"],
+      "when_to_see_doctor": "If blood pressure readings consistently above 140/90, or experiencing severe headache, chest pain"
+    },
+    {
+      "name": "Diabetes (Type 2)",
+      "symptoms": ["frequent urination", "excessive thirst", "fatigue", "blurred vision", "slow wound healing", "unexplained weight loss"],
+      "recommendations": ["Monitor blood sugar regularly", "Follow a balanced diet", "Exercise regularly", "Take medications as prescribed", "Regular foot care"],
+      "when_to_see_doctor": "If blood sugar levels are consistently high, symptoms of diabetic ketoacidosis, or new symptoms develop"
+    },
+    {
+      "name": "Anxiety",
+      "symptoms": ["excessive worry", "restlessness", "difficulty concentrating", "rapid heartbeat", "sleep problems", "muscle tension"],
+      "recommendations": ["Practice deep breathing exercises", "Regular physical activity", "Limit caffeine and alcohol", "Try mindfulness meditation", "Maintain a regular sleep schedule"],
+      "when_to_see_doctor": "If anxiety interferes with daily life, panic attacks, or thoughts of self-harm"
+    },
+    {
+      "name": "Dehydration",
+      "symptoms": ["dry mouth", "dark urine", "fatigue", "dizziness", "headache", "reduced urination"],
+      "recommendations": ["Drink water regularly", "Use ORS for severe cases", "Eat water-rich fruits", "Avoid excessive caffeine"],
+      "when_to_see_doctor": "If unable to keep fluids down, very dark urine, rapid heartbeat, or confusion"
+    },
+    {
+      "name": "Back Pain",
+      "symptoms": ["lower back pain", "muscle stiffness", "limited mobility", "pain radiating to legs"],
+      "recommendations": ["Apply ice or heat", "Gentle stretching", "Maintain good posture", "Over-the-counter pain relievers", "Stay active with low-impact exercises"],
+      "when_to_see_doctor": "If pain persists beyond 6 weeks, numbness in legs, bladder/bowel problems, or pain after injury"
+    }
+  ],
+  "nutrition_guidelines": {
+    "daily_water_intake_ml": 2500,
+    "macro_split": {
+      "carbohydrates": "45-65%",
+      "protein": "10-35%",
+      "fats": "20-35%"
+    },
+    "vitamins": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D", "Vitamin E", "Iron", "Calcium", "Zinc"]
+  },
+  "emergency_signs": [
+    "Chest pain or pressure",
+    "Difficulty breathing or shortness of breath",
+    "Sudden severe headache",
+    "Sudden numbness or weakness (especially one side)",
+    "Loss of consciousness",
+    "Severe allergic reaction (anaphylaxis)",
+    "Uncontrolled bleeding",
+    "Severe burns",
+    "Seizures",
+    "Signs of stroke (FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency)"
+  ]
+}
